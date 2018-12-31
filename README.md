@@ -15,3 +15,21 @@ cnpm install web3@^0.20.0 --save
 合约如何部署以及Dapp使用方式和运行效果见实验报告。
 
 合约的源代码在contracts/contracts/Dweibo
+
+安装好依赖的环境之后直接
+
+ganache-cli
+
+打开私链环境
+
+然后进入contracts文件夹运行
+
+truffle.cmd migrate
+
+部署私链
+
+然后在ganache-cli的命令行中找到合约的地址，然后替换express_demo中的全局变量address。然后
+
+node express_demo.js
+
+然后访问localhost:8081即可。
