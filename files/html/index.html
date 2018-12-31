@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dweibo</title>
+	<link rel="stylesheet" type="text/css" href="../css/denglu.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="panel">
+		<p id="first">Sign in</p>
+		<form action="http://127.0.0.1:8081/login" method="POST" id="sign">
+			Your Address: <input type="text" name="address" id="username">  <br>
+			 
+			Password: <input type="password" name="password" id="pw"> <br>
+			<p id="err">Error message</p>
+			<input type="submit" value="Sign in" id="sub">
+			<input type="reset" value="Reset" id="re">
+		</form>
+		<form action="http://127.0.0.1:8081/regist" method="GET" id="zhuce">
+			<input type='submit' value="Sign up" id="zc"></input>
+		</form>
+	</div>
+</body>
+</html>
+
+

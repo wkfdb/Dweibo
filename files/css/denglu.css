@@ -1,0 +1,84 @@
+body
+{
+	background: url(../images/back2.jpg) no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+}
+
+#panel
+{
+	width: 600px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 150%;
+	position: relative;
+}
+
+#first
+{
+	font-size: 150%;
+}
+
+#err
+{
+	visibility: hidden;
+}
+
+
+input
+{
+	font-size: 100%;
+	color: white;
+}
+
+input:-webkit-autofill 
+{
+	background-color: transparent;
+}
+
+#username,#address
+{
+	border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+    outline: none;
+}
+
+#pw,#pw2
+{
+	border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+    outline: none;
+}
+
+#sub
+{
+	width: 50%;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px solid white;
+}
+
+#re
+{
+	margin-top: 5px;
+	width: 50%;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px solid white;
+}
+
+#zc
+{
+	margin-top: 5px;
+	width: 50%;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px solid white;
+}

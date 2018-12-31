@@ -1,0 +1,134 @@
+body
+{
+	background: url(../images/back2.jpg) no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+}
+
+button
+{
+	border-radius: 50%;
+	background-color: transparent;
+	width: 25px;
+	height: 25px;
+	color: white;
+	font-size: 60%;
+	opacity: 0;
+	font-weight: bold;
+}
+
+#panel
+{
+	width: 600px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 150%;
+	position: relative;
+}
+
+#first
+{
+	font-size: 150%;
+}
+
+
+
+#readme
+{
+	opacity: 1;
+	position: absolute;
+	top: 10px;
+	right: 120px;
+	border: 2px solid white;
+	width: 30px;
+	height: 30px;
+}
+
+input
+{
+	font-size: 100%;
+	color: white;
+}
+
+input:-webkit-autofill 
+{
+	background-color: transparent;
+}
+
+#username
+{
+	border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+    outline: none;
+}
+
+#number
+{
+	border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+    outline: none;
+}
+
+#tel
+{
+	border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+    outline: none;
+}
+
+#email
+{
+	border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+    outline: none;
+}
+
+#pw
+{
+	border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+    outline: none;
+}
+
+#pwe
+{
+	border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+    outline: none;
+}
+
+#sub
+{
+	width: 20%;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px solid white;
+}
+
+#re
+{
+	width: 20%;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px solid white;
+}
+
+#hide
+{
+	opacity: 0;
+}

@@ -1,0 +1,296 @@
+body/*整体布局*/
+{
+	background: url(../images/back4.jpg);
+	background-size: cover;
+	font-size: 8pt;
+	font-family: Verdana, Tahoma,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#address
+{
+	font-size:20pt;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#personal_message
+{
+	width: 200px;
+	height: 150px;
+	border: 4px gray solid;
+	background-color: white;
+	margin-left: 150px;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+
+#message_head
+{
+	margin-left: 10px;
+}
+
+#username
+{
+	text-align: center;
+	font-size: 15pt;
+}
+
+
+#send_dongtai
+{
+	border: 4px gray solid;
+	width: 600px;
+	height: 160px;
+	margin-top: -313px;
+	margin-left: 450px;
+	background-color: pink;
+	opacity: 0.8;
+	border-radius: 8px;
+	
+}
+#content
+{
+	width: 550px;
+	height: 100px;
+	margin-left: 25px;
+}
+#sub
+{
+	width: 20%;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px solid white;
+	margin-left: 420px;
+	margin-top: 10px;
+}
+#dongtaii
+{
+	/*border: 4px gray solid;*/
+	width: 600px;
+	margin-left: 450px;
+
+}
+
+.dt
+{
+	margin-top: 10px;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 8px;
+}
+
+.name
+{
+	font-size: 15pt;
+	margin-left: 10px;
+	margin-top: -20px;
+}
+
+.neirong
+{
+	margin-left: 20px;
+	font-size: 12pt;
+}
+
+.nic_pic
+{
+	background: url(../images/white.png);
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	margin-left: 450px;
+}
+
+.del
+{
+	margin-left: 570px;
+	margin-top: 0px;
+	background: url(../images/del.jpg);
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	visibility: hidden;
+}
+
+.index
+{
+	margin-top: -40px;
+	visibility: hidden;
+
+}
+
+.nic_num
+{
+	margin-left: 500px;
+	margin-top: -25px;
+	font-size: 15pt;
+}
+
+.time
+{
+	margin-left: 20px;
+	margin-top: -30px;
+	padding-bottom: 20px;
+}
+
+#clear
+{
+	margin-left: 200px;
+	margin-top: 10px;
+	width: 100px;
+	background-color: #D1EEEE;
+	opacity: 0.9;
+	color: #3D3D3D;
+	border-radius: 15px;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#getmyself
+{
+	margin-left: 200px;
+	margin-top: 10px;
+	width: 100px;
+	background-color: #D1EEEE;
+	opacity: 0.9;
+	color: #3D3D3D;
+	border-radius: 15px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#fresh
+{
+	margin-left: 200px;
+	margin-top: 10px;
+	width: 100px;
+	background-color: #D1EEEE;
+	opacity: 0.9;
+	color: #3D3D3D;
+	border-radius: 15px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#befans
+{
+	position: fixed;
+	right: 20px;
+	top: 100px;
+	width: 100px;
+	background-color: #D1EEEE;
+	opacity: 0.9;
+	color: #3D3D3D;
+	border-radius: 15px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#delfriend
+{
+	position: fixed;
+	right: 20px;
+	top: 200px;
+	width: 100px;
+	background-color: #D1EEEE;
+	opacity: 0.9;
+	color: #3D3D3D;
+	border-radius: 15px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#deldongtai
+{
+	position: fixed;
+	right: 20px;
+	top: 150px;
+	width: 100px;
+	background-color: #D1EEEE;
+	opacity: 0.9;
+	color: #3D3D3D;
+	border-radius: 15px;
+    border: none;
+    
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#addfriend
+{
+	position: fixed;
+	width: 600px;
+	height: 200px;
+	background-color: white;
+	top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    visibility: hidden;
+    background: url(../images/back5.jpg);
+    background-size: cover;
+}
+
+input:-webkit-autofill 
+{
+	background-color: transparent;
+}
+
+#friendaddress
+{
+	color: white;
+	
+	background-color: transparent;
+}
+
+#add
+{
+	color: white;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px solid white;
+}
+
+
+
+
+#friendaddress
+{
+	position: relative;
+	width: 400px;
+	left: 100px;
+	top: 30px;
+}
+#add
+{
+	position: relative;
+	width: 200px;
+	left: 200px;
+	top: 100px;
+}
